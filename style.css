@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(rgb(18, 146, 57),rgb(49, 111, 192));
+   height: 100vh;
+    
+}
+ul{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 25px;
+    align-items: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(139, 219, 10);
+}
+nav{
+    background-color: rgb(109, 16, 16);
+    height: 100px;
+}
+.flex_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 55%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(195, 132, 201, 0.9);
+}
+.exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(210, 210, 219, 0.9);
+}
+.flex_col div{
+    margin: 10px;
+    text-align: end;
+}
+.flex_col h2{
+    margin: 10px;
+    text-align: left;
+}
+.flex_col p{
+    padding: 20px;
+    width: 70%;
+    line-height: 1.7em;
+    text-align: left;
+}
+button{
+    background-color: rgb(72, 35, 114);
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: rgb(173, 63, 36);
+    transform: scale(1.2);
+}
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
