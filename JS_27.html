@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>SHEKHAR GIRI, 2006113, JS Assignmen</title>
+</head>
+<body>
+    <center>
+    <h1 style="color: indigo;"> SHEKHAR GIRI, 2006113, CSL3403, JS ASSIGNMENT</h1><hr><br>
+    <h2 style="color: lightcoral;">You can open the Console to view 3 persons details.</h2>
+    </center>
+</body>
+
+
+<script>
+    function Person(FirstName, LastName, Office_Address)
+{
+  this.FirstName = FirstName;
+  this.LastName = LastName;
+  this.Office_Address = Office_Address;
+}
+
+const p1 = new Person("Shekhar","Giri","Siwan");
+const p2 = new Person("Danish","Ali","Siwan");
+const p3 = new Person("Naveen","Dhaked","Rajasthan");
+console.log('First Person:->');
+console.log(p1.FirstName,p1.LastName,p1.Office_Address);
+console.log('Second Person:->');
+console.log(p2.FirstName,p2.LastName,p2.Office_Address);
+console.log('Third Person:->');
+console.log(p3.FirstName,p3.LastName,p3.Office_Address)
+</script>
+</html>
